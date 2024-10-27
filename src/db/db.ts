@@ -1,7 +1,7 @@
 "use server";
 
-import { Database as Sqlite } from "jsr:@db/sqlite@0.12";
-import { DenoSqlite3Dialect } from 'jsr:@soapbox/kysely-deno-sqlite';
+import { Database as Sqlite } from "@jsr/db__sqlite";
+import { DenoSqlite3Dialect } from '@jsr/soapbox__kysely-deno-sqlite';
 
 import fs from "node:fs";
 import {
