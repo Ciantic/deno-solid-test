@@ -14,12 +14,14 @@ deno run dev # Dev server works
 
 
 
-# However this does not work, it gives error like:
-$ deno run -A build # 
+# However these does not work:
 
+deno run -A build 
+# or
 deno run -A --node-modules-dir npm:vinxi build
-vinxi v0.4.3
 
+# Both give error:
+vinxi v0.4.3
 
 ⚙  Building your app...
 vinxi v0.4.3
